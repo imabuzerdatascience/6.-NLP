@@ -1,7 +1,9 @@
 # sentences tokeniztion 
 
 from nltk.tokenize import sent_tokenize 
-import spacy 
+import spacy  
+from nltk.tokenize import word_tokenize 
+
 sentences = '''
 Hello my name is abuzer khan , and i live in biratnagar six . I am datascientisst 
 and I work hard to fnd a job 
@@ -33,4 +35,5 @@ for tokens in token :
 print(token) 
 
 
-# playing with spacy  
+
+# word tokenizer 
